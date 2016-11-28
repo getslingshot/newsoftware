@@ -1,0 +1,33 @@
+      {{ define "header" }}
+      <!-- Header -->
+      <header id="header-navbar" class="main-header">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <a href="#"><img class="app-btn" src="assets/img/slingshot/logo.png"></a>
+            </div>
+
+            <div class = "menu-text01" >
+
+              <div class="col-md-2 text-center">
+                <a href="/users" >Users</a>
+              </div>
+              <div class="col-md-2 text-center">
+                <a href="/clients">Clients</a>
+              </div>
+              <div class="col-md-2 text-center">
+                <a href="/logoff">Log Off</a>
+              </div>              
+              <div class="col-md-2 text-center">
+                <center><img src="assets/img/slingshot/user-2.png"></center>
+                <center><a href="userprofile">Hi {{ .Data.user.FirstName }}</a></center>
+              </div>
+
+            </div>
+
+          </div>
+          <!-- END Container -->
+        </div>
+      </header>
+      <!-- END Header -->
+      {{ end }}

@@ -1,0 +1,107 @@
+{{ define "javaScriptsHead"}}
+{{ end }}
+
+{{ define "pageContent" }}
+
+<main id="main-container">
+
+<div class="content bg-image overflow-hidden" style="background-image: url('assets/img/photos/MilkyWay3.jpg');">
+  <div class="push-50-t push-15">
+    <h1 class="h2 text-white animated zoomIn">Welcome</h1><br>
+    <h2 class="h5 text-white-op animated zoomIn">Users.</h2>
+  </div>
+</div>
+
+<div class="content">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="block">
+                <div class="block-header">
+                    <h3 class="block-title">Employees</h3>
+                </div>
+                <div class="block-content">
+
+                    <form action="/users" method="POST">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th class="" style="width: 300px;">Last Name</th>
+                                    <th class="" style="width: 300px;">First Name</th>
+                                    <th class="" style="width: 300px;">Location</th>
+                                    <th class="" style="width: 300px;">Position</th>
+                                    <th class="" style="width: 300px;">Phone</th>
+                                    <th class="" style="width: 300px;">Email</th>
+                                    <th class="" style="width: 300px;">Notes</th>
+                                    <th class=""></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                {{range .Data}}
+                                    <tr>
+                                        <td class="">{{.LastName}}</td>
+                                        <td>{{.FirstName}}</td>
+                                        <td class="">
+                                            {{.Location}}
+                                        </td>
+                                        <td class="">
+                                            {{.Position}}
+                                        </td>
+                                        <td>{{.Phone}}</td>
+                                        <td>{{.Email}}</td>
+                                        <td>{{.Notes}}</td>
+                                        <td class="">
+                                        </td>
+                                    </tr>
+
+                                {{end}}
+
+                                <tr>
+                                    <td class="">
+                                        <input class="form-control" type="text" name="lastName" placeholder="Last Name" />
+                                    </td>
+                                    <td>
+                                        <input class="form-control" type="text" name="name" placeholder="First Name" />
+                                    </td>
+                                    <td class="">
+                                        <input class="form-control" type="text" name="location" placeholder="Location" />
+                                    </td>
+                                    <td class="">
+                                        <input class="form-control" type="text" name="position" placeholder="Position" />
+                                    </td>
+                                    <td class="">
+                                        <input class="form-control" type="text" name="phone" placeholder="Phone" />
+                                    </td>
+                                    <td>
+                                        <input class="form-control" type="email" name="email" placeholder="Email" required />
+                                            <span class="text-danger">
+                                                {{ index .Errors "email" }}
+                                            </span>
+                                    </td>
+                                    <td>
+                                        <input class="form-control" type="text" name="notes" placeholder="Notes">
+                                    </td>
+                                    <td class="">
+                                        <div class="btn-group">
+                                            <button class="btn btn-success" type="submit">
+                                                Save
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</main>
+
+{{ end }}
+
+{{ define "scripts" }}
+{{ end }}

@@ -1,0 +1,32 @@
+.block.block-themed > .block-header > .block-title {
+  color: #000;
+}
+
+.block.block-themed > .block-header .block-options > li > button {
+  color: #000;
+}
+
+.btn-danger {
+    background-color: #FF3B00;
+    border-color: #FF3B00;
+}
+
+.text-danger {
+    color: #FF3B00;
+}
+
+.state-color {
+    background-color: #1363C0;
+    color: white;
+}
+
+.state-color:focus {
+    border-color: #1363C0;
+    background-color: #1363C0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn-spaced {
+   margin-right: 5px;
+}

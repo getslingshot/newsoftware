@@ -1,0 +1,459 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.3px;
+  color: #000000;
+}
+
+.add-an-exception {
+  width: 140px;
+  height: 25px;
+  object-fit: contain;
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -0.3px;
+  color: #4a4a4a;
+  color: var(--greyish-brown);
+}
+
+.add-hours {
+  width: 53px;
+  height: 16px;
+  object-fit: contain;
+  opacity: 0.55;
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -0.2px;
+  color: #1363c0;
+  color: var(--nice-blue);
+}
+
+.andif-font {
+  width: 50px;
+  height: 19px;
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -0.3px;
+  color: #4a4a4a;
+  color: var(--greyish-brown);
+}
+
+.apply-to-text {
+  width: 154px;
+  height: 19px;
+  object-fit: contain;
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -0.3px;
+  color: #4a4a4a;
+  color: var(--greyish-brown);
+  margin-left:15px;
+}
+
+.box-closed {
+  width: 890.8px;
+  height: 60px;
+  background-color: #ffffff;
+  border: solid 1px #979797;
+}
+
+.box-is {
+  height: 47px;
+  color: white !important;
+  object-fit: scale-down !important;
+  opacity: 0.90;
+  background-color: #ffffff;
+}
+
+.box-opened {
+  background-color: #ffffff;
+  border: solid 1px #979797;
+}
+
+.box-scheduleon {
+  width: 160px;
+  color: white !important;
+  object-fit: scale-down;
+  opacity: 0.90;
+  background-color: #0656bb !important;
+  background-color: var(--nice-blue) !important;
+}
+.box-scheduleon  select {
+  height: 34px;
+}
+
+.box-this {
+  height: 47px;
+  color: white !important;
+  object-fit: scale-down !important;
+  opacity: 0.90;
+  background-color: #ffffff;
+}
+
+.btn-add {
+  color: #1363c0;
+  background-color: #ffffff;
+  border:none;
+}
+
+.button-red {
+  background-image: url('../../assets/img/slingshot/rectangle-3_4.png');
+  width: 125px;
+  height: 60px;
+  color: white;
+}
+
+.call-comes-in-text {
+  width: 251px;
+  height: 25px;
+  object-fit: contain;
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -0.3px;
+  color: #0656bb;
+}
+
+.cancel-btn {
+  width: 49.7px;
+  height: 20px;
+  object-fit: contain;
+  font-family: Avenir !important;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -0.2px;
+  color: #ff3b00 !important;
+  color: var(--red-orange);
+  background-color: #ffffff !important;
+  border:none;
+}
+
+.check-box {
+  width: 19.8px;
+  height: 18px;
+  object-fit: contain;
+  opacity: 0.90;
+  background-color: #ffffff;
+  border: solid 1px #979191;
+}
+
+.daytime-or-after-hou {
+  width: 140px;
+  height: 19px;
+  object-fit: contain;
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -0.3px;
+  color: #4a4a4a;
+  color: var(--greyish-brown);
+}
+
+.finish-btn {
+  width: 80px;
+  height: 47px;
+  color:white !important;
+  object-fit: contain;
+  background-color: #ff3b00 !important;
+  background-color: var(--red-orange);
+}
+
+.font-exception-day {
+  width: 50px;
+  height: 19px;
+  object-fit: contain;
+  opacity: 0.90;
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -0.3px;
+  color: #4a4a4a;
+  color: var(--greyish-brown);
+}
+
+.from {
+  width: 33px;
+  height: 19px;
+  object-fit: contain;
+  opacity: 0.90;
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -0.3px;
+  color: #4a4a4a;
+  color: var(--greyish-brown);
+}
+
+.if-font {
+  width: 16px;
+  height: 19px;
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -0.3px;
+  color: #4a4a4a;
+  color: var(--greyish-brown);
+}
+
+.input-area {
+  width: 141.8px;
+  height: 47px;
+  object-fit: contain;
+  background-color: #ffffff;
+  border: solid 1px #d1cfcf;
+}
+
+.main-header {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 24px;
+  height: 86px;
+  background-image: url('../../assets/img/slingshot/header.png');
+  color: white;
+}
+
+.main-footer {
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('../../assets/img/slingshot/footer.png');
+  color: white;
+}
+
+.menu-text01 a {
+  font-size: 14px;
+  color: #ffffff
+}
+
+.menu-text01 a:hover, a:focus {
+  font-size: 14px;
+  color: #5c90d2;
+  -webkit-transition: color 0.12s ease-out;
+  transition: color 0.12s ease-out
+}
+
+.menu-text01 a:active, a:hover {
+  outline: 0;
+}
+
+.push90{
+  margin-top: 90px;
+}
+
+.push-header{
+  margin-top:210px;
+  margin-left:82px;
+}
+
+.rectangle-2 {
+  width: 180px;
+  height: 45px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  object-fit: contain;
+  background-color: #ffffff !important;
+  background-color: var(--nice-blue);
+}
+
+.rectangle-19 {
+  width: 934.7px;
+  height: 780px;
+  background-color: #ffffff;
+  border: solid 1px #c8c5c5 !important;
+}
+
+.rectangle-21 {
+  width: 1183px;
+  height: 546px;
+  background-color: #ffffff;
+  border: solid 1px #979797;
+}
+
+.rectangle-exception {
+  padding: 25px 0;
+  background-color: #ffffff;
+  border: solid 1px #c8c5c5;
+}
+
+.rectangle-time {
+  width: 75px;
+  height: 50px;
+  color:white !important;
+  object-fit: contain;
+  opacity: 0.90;
+  background-color: #0656bb;
+  background-color: var(--nice-blue) !important;
+}
+
+.scheduling-logic {
+  object-fit: contain;
+  font-family: Avenir;
+  font-size: 28px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -0.5px;
+  color: #4a4a4a;
+  color: var(--greyish-brown);
+}
+
+.select-hours-of-oper {
+  object-fit: contain;
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -0.3px;
+  color: #4a4a4a;
+  color: var(--greyish-brown);
+}
+
+.set-the-schedule-for {
+  width: 144px;
+  height: 22px;
+  object-fit: contain;
+  opacity: 0.71;
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -0.3px;
+  color: #4a4a4a;
+  color: var(--greyish-brown);
+}
+
+.sunday {
+  width: 51px;
+  height: 22px;
+  object-fit: contain;
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -0.3px;
+  color: #4a4a4a;
+  color: var(--greyish-brown);
+}
+
+.then-font {
+  width: 38px;
+  height: 19px;
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -0.3px;
+  color: #4a4a4a;
+  color: var(--greyish-brown);
+}
+
+.time-text {
+  width: 16px;
+  height: 19px;
+  object-fit: contain;
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -0.3px;
+  color: #ffffff;
+}
+
+.to {
+  width: 15px;
+  height: 19px;
+  object-fit: contain;
+  opacity: 0.90;
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -0.3px;
+  color: #4a4a4a;
+  color: var(--greyish-brown);
+}
+
+.btn-spaced {
+  margin-right: 5px;
+}
+
+.scheduling-logic-page select {
+/*     -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+ */
+  color:white; 
+  background-color: #0656bb !important;
+}
+
+.scheduling-logic-page textarea {
+  resize: vertical;
+}
+
+.scheduling-logic-page .time-entry {
+  display: inline-block;
+}
+
+.time-entry:first-of-type .remove-time-entry{
+  visibility: hidden !important;
+}
+
+.rectangle-exception .time-entry, .after-hours-time-row .time-entry{
+  display: block;
+}
+
+.exceptions-row, .after-hours-time-row {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.remove-exception, .edit-exception {
+  margin-right: 10px;
+}
+.remove-exception:hover, .edit-exception:hover {
+  cursor: pointer;
+  color: #23527c;
+}
+
+.hours-notes {
+
+}
+
+
+

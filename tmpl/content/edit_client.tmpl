@@ -1,0 +1,62 @@
+{{ define "javaScriptsHead"}}
+{{ end }}
+
+{{ define "pageContent" }}
+
+<main id="main-container">
+
+<div class="content bg-image overflow-hidden">
+  <div class="push-50-t push-15">
+    <h1 class="h2"> {{ .Data.client.CompanyName }}</h1><br>
+  </div>
+</div>
+
+<div class="content">
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="block">
+                <div class="block-header">
+                </div>
+                <div class="block-content">
+                    <form class="form-horizontal push-5-t" action="/update-client" method="POST">
+                        <h4>Basic Info:</h4>
+                        <br />
+                        <div class="form-group">
+                            <div class="col-xs-6">
+                            <!-- ID.Hex example  http://bit.ly/2eLDIit -->
+                                <input class="form-control" type="hidden" name="id" placeholder="{{.Data.client.ID.Hex}}" value ="{{.Data.client.ID.Hex}}"> 
+
+                                <label >Client Business Name</label>
+                                <input class="form-control" type="text" name="company-name" placeholder="{{ .Data.client.CompanyName }}" value ="{{ .Data.client.CompanyName }}">
+
+                                <label >Client Address</label>
+                                <input class="form-control" type="text" name="company-address" placeholder="{{ .Data.client.Address }}" value ="{{ .Data.client.Address }}">
+
+                                <label >Client Phone Number</label>
+                                <input class="form-control" type="text" name="company-phone" placeholder="{{ .Data.client.Phone }}" value ="{{ .Data.client.Phone }}">
+
+                                <label >Add Messages</label>
+                                <input class="form-control" type="text" name="company-message" placeholder="{{ .Data.client.ClientMessage }}" style="height: 200px" value ="{{ .Data.client.ClientMessage }}">                                
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-12">
+                                <button class="btn btn-sm btn-primary" type="submit">
+                                    Save
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</main>
+
+{{ end }}
+
+{{ define "scripts" }}
+    
+{{ end }}

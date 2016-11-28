@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Slingshot | Bug Finders</title>
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
+  <link rel="stylesheet" href="assets/css/login.css">
+  <!-- Scripts -->
+  <script src="http://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="logonContainer">
+  <div class="ui two column centered grid">
+    <div class="column">
+      <h1 class="ui dividing header push25"><center class="pad34"><img src="assets/img/slingshot/logo.png"></center></h1>
+      <!-- Logon Form -->
+      <form action ="/login" method="post">
+        <input type="email" id="login-email" name="login-email" class="rectangle-1" placeholder="User name">
+        <input type="password" id="login-password" name="login-password" class="rectangle-1" placeholder="Password">
+        <label for="remember-me" class="rememberCheck">
+          <input type="checkbox" id="remember-me" name="remember-me">
+          Remember?
+        </label>
+        <button type ="submit" class="push24 button-red"><img src='/assets/img/icons/locked.svg'/> Log in</button>
+      </form> <!-- /End Logon Form -->
+    </div>
+  </div> <!-- End two colunn grid -->
+  <div class="ui grid">
+    <div class="left floated right aligned eight wide column">
+      <a href="/forgotpass" class=""><font color="FFFFFF">Forgot password?</font></a>
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>

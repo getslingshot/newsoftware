@@ -1,0 +1,113 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+  background: url('../../assets/img/slingshot/backgroundHome.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.3px;
+  color: #000000;
+}
+
+.logonContainer {
+	margin-top: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url('../../assets/img/slingshot/rectangle-3.png');
+  width: 444px;
+  height: 492px;
+  object-fit: contain;
+  opacity: 1.00;
+  background-color: #000000;
+  background-color: var(--black);
+}
+
+.pad34 {
+	padding-top: 34px;
+	padding-bottom: 34px;
+}
+
+.push24 {
+	margin-top: 24px;
+  float: right;
+  margin-right: -50px;
+}
+
+.rectangle-1 {
+	margin-left: -58px;
+  width: 312px;
+  height: 60px;
+  object-fit: contain;
+  background-color: #ffffff;
+  border: solid 1px #9b9b9b;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.logonContainer input[type=email],  .logonContainer input[type=password]{
+  background-size: 28px;
+  background-repeat: no-repeat;
+  background-position: 20px 15px;
+  padding-left: 60px;
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 5;
+  font-style: oblique;
+  letter-spacing: -0.3px;
+  color: #9b9b9b;
+}
+
+.logonContainer input[type=email],  .logonContainer input[type=password]{
+
+}
+
+.logonContainer input[type=email]::-webkit-input-placeholder,  .logonContainer input[type=password]::-webkit-input-placeholder {
+   color: #9b9b9b;
+}
+
+.logonContainer input[type=email]::-moz-placeholder, .logonContainer input[type=password]::-moz-placeholder { 
+   color: #9b9b9b;  
+}
+
+.logonContainer input[type=email]:-ms-input-placeholder, .logonContainer input[type=password]:-ms-input-placeholder {  
+   color: #9b9b9b; 
+}
+
+.logonContainer input[type=email] {
+  background-image: url('../../assets/img/icons/avatarCircle.svg');
+}
+
+.logonContainer input[type=password] {
+  background-image: url('../../assets/img/icons/circleLock.svg');
+}
+
+.button-red {
+	background-image: url('../../assets/img/slingshot/rectangle-3_4.png');
+  width: 125px;
+  height: 60px;
+  object-fit: contain;
+  background-color: #ff3b00;
+  background-color: var(--red-orange);
+	border: solid 1px #ff3b00;
+	color: white;
+}
+
+.button-red img {
+  width: 20px;
+  margin-right: 15px;
+  vertical-align: middle;
+  margin-top: -5px;
+}
+
+.rememberCheck {
+  display: inline-block;
+  float: left;
+  padding-top: 20%;
+  color: #fff;
+  margin-left: -50px;
+}
